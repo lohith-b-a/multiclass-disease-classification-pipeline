@@ -100,7 +100,8 @@ These notebooks are not used for production execution. The pipeline implemented 
 
 ## Installation
 
-git clone https://github.com/YOUR-USERNAME/multiclass-disease-classification-pipeline.git
+git clone https://github.com/lohith-b-a/multiclass-disease-classification-pipeline
+
 cd multiclass-disease-classification-pipeline
 pip install -r requirements.txt
 

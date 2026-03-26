@@ -45,6 +45,12 @@ Raw Data → Validation → Preprocessing → Feature Engineering → Model Trai
 
 The model was selected to ensure balanced predictive performance across all classes in an imbalanced dataset.
 
+## Final Model Performance
+
+- Accuracy: 0.6543  
+- Weighted F1: 0.6636  
+- Macro F1: 0.5325
+
 ---
 
 ## Evaluation Metric

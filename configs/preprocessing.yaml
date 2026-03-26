@@ -1,0 +1,13 @@
+seed: 42
+
+data:
+  raw_data_path: data/raw/Community Healthcare MultiSymptomsDisease Diagnostic Dataset.csv
+  target_column: disease
+  encoded_target_column: disease_encoded
+  processed_output_dir: data/processed
+
+preprocessing:
+  min_samples_per_class: 20
+
+artifacts:
+  label_mapping_path: data/processed/disease_label_mapping.csv

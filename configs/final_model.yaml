@@ -1,0 +1,28 @@
+model:
+  name: xgboost_class_weights_tuned
+
+xgboost:
+  n_estimators: 500
+  max_depth: 3
+  learning_rate: 0.2
+  subsample: 0.8
+  colsample_bytree: 0.9
+  min_child_weight: 3
+  gamma: 0.1
+  reg_alpha: 0
+  reg_lambda: 2
+  random_state: 42
+  eval_metric: mlogloss
+
+training:
+  use_class_weights: true
+  selection_metric: Macro F1
+
+data:
+  processed_data_dir: data/processed
+  target_column: disease_encoded
+
+artifacts:
+  model_dir: models
+  metadata_path: models/best_model_metadata.json
+  final_test_results_path: data/processed/final_test_results.json

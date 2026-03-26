@@ -1,0 +1,6 @@
+{
+  "best_model_name": "xgboost_class_weights_tuned",
+  "Accuracy": 0.654339,
+  "Weighted F1": 0.663644,
+  "Macro F1": 0.532484
+}

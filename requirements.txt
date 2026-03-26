@@ -1,0 +1,19 @@
+
+---
+
+# `requirements.txt`
+
+Use this:
+
+```text
+numpy
+pandas
+scikit-learn
+pyyaml
+jupyter
+matplotlib
+seaborn
+xgboost
+imbalanced-learn
+shap
+joblib

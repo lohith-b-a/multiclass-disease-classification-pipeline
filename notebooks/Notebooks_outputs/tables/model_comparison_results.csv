@@ -1,0 +1,7 @@
+Rank,Model,Macro F1,Weighted F1,Accuracy,Selection Note
+1,XGBoost,0.4592,0.655,0.6652,Best overall balance
+2,Neural Network,0.3748,0.5448,0.5513,Strong alternative
+3,Logistic Regression (Balanced),0.296,0.3471,0.3335,
+4,"Linear SVM (C=1, Balanced)",0.2891,0.34,0.3258,
+5,Random Forest (300 trees),0.2378,0.3654,0.4026,
+6,"KNN (k=5, distance-weighted)",0.1929,0.2827,0.2883,
